@@ -5,6 +5,7 @@
     border-bottom: 1px solid #181818;
     height: 400px;
     margin-bottom: 20px;
+    margin-top: 20px;
     .card-topper{
       height: 200px;
       width: 100%;
@@ -14,12 +15,13 @@
     .card-block {
       padding: 10px;
       .btn-read{
-        background-color: #e8e8e8;
+        background-color: #ff0000;
         font-weight: 300;
         border-radius: 0;
-        color: black;
+        color: #ffffff;
+
         &:hover {
-          background-color: #d8d8d8;
+          background-color: #9e3131;
         }
       }
       .card-title {
@@ -44,6 +46,12 @@
   }
 }
 
+.table {
+  margin-top: 25px;
+}
+.vineeth {
+  margin-top: 10px;
+}
 @media screen and (min-width: 34em) {
   .posts.index .card {
     height: 440px;
